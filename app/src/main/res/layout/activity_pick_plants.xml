@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PickPlantsActivity">
+
+    <Button
+        android:id="@+id/corriander_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="pickCoriander"
+        android:text="CORRIANDER"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/basil_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="412dp"
+        android:onClick="pickBasil"
+        android:text="BASIL"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/chives_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="412dp"
+        android:onClick="pickChives"
+        android:text="CHIVES"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/beans_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="279dp"
+        android:onClick="pickBeans"
+        android:text="BEANS"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/zucchinni_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="146dp"
+        android:onClick="pickZucchinni"
+        android:text="ZUCCHINNI"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/kale_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:onClick="pickKale"
+        android:text="KALE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/round-tomatoes_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="146dp"
+        android:onClick="pickRoundTomatoes"
+        android:text="ROUND TOMATOES"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/brocoli_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="278dp"
+        android:onClick="pickBrocoli"
+        android:text="BROCOLI"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/cauliflower_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="pickCauliflower"
+        android:text="CAULIFLOWER"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/cucumber_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="pickCucumber"
+        android:text="CUCUMBER"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/lettuce_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="14dp"
+        android:onClick="pickLettuce"
+        android:text="LETTUCE"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/cherry-tomatoes_btn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:onClick="pickCherryTomatoes"
+        android:text="Cherry Tomatoes"
+        android:textSize="18sp" />
+
+</RelativeLayout>

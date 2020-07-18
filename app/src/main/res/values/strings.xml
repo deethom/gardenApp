@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GardenInventory</string>
+    <string name="cp">CP</string>
+    <string name="gouin">GOUIN</string>
+    <string name="cummins">Cummins</string>
+    <string name="medtronic">MEDTRONIC</string>
+</resources>
