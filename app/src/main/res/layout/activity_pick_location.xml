@@ -21,7 +21,8 @@
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:onClick="pickPlantsAtCP"
-        android:text="@string/cp" />
+        android:text="@string/cp"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/gouin_btn"
@@ -34,7 +35,8 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="23dp"
         android:onClick="pickPlantsAtGouin"
-        android:text="@string/gouin" />
+        android:text="@string/gouin"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/cummins_btn"
@@ -47,7 +49,8 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="236dp"
         android:onClick="pickPlantsAtCummins"
-        android:text="@string/cummins" />
+        android:text="@string/cummins"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/medtronic_btn"
@@ -64,5 +67,6 @@
         android:layout_marginEnd="7dp"
         android:layout_marginRight="7dp"
         android:onClick="pickPlantsAtMedtronic"
-        android:text="@string/medtronic" />
+        android:text="@string/medtronic"
+        android:textSize="24sp" />
 </RelativeLayout>

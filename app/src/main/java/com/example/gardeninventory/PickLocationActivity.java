@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class PickLocationActivity extends AppCompatActivity {
-
-    Boolean gouin, cp, medtronic, cummins = false;
+    private static GardenState currentGarden = GardenState.NULL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,28 +15,42 @@ public class PickLocationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pick_location);
     }
 
+
     public void pickPlantsAtGouin(View view){
+        ((MyApplication) this.getApplication()).setCurrentGarden(GardenState.GOUIN);
         Intent plantsPage = new Intent(this, PickPlantsActivity.class);
         startActivity(plantsPage);
-        gouin = true;
+
+
     }
 
     public void pickPlantsAtCP(View view){
+        ((MyApplication) this.getApplication()).setCurrentGarden(GardenState.CP);
         Intent plantsPage = new Intent(this, PickPlantsActivity.class);
         startActivity(plantsPage);
-        cp = true;
+
     }
 
     public void pickPlantsAtCummins(View view){
+        ((MyApplication) this.getApplication()).setCurrentGarden(GardenState.CUMMINS);
         Intent plantsPage = new Intent(this, PickPlantsActivity.class);
         startActivity(plantsPage);
-        cummins = true;
+
     }
 
     public void pickPlantsAtMedtronic(View view){
+        ((MyApplication) this.getApplication()).setCurrentGarden(GardenState.MEDTRONIC);
         Intent plantsPage = new Intent(this, PickPlantsActivity.class);
         startActivity(plantsPage);
-        medtronic = true;
+
+    }
+
+    public void setGarden(GardenState garden){
+        currentGarden = garden;
+    }
+
+    public static GardenState getGarden(){
+        return currentGarden;
     }
 
 }
