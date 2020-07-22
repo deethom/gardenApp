@@ -2,13 +2,6 @@
 An Android app that keeps track of various inventories for Garden locations, for summer vegetable gardeners. i.e. how much kale, lettuce, tomatoes, did you pick at Location A, Location B, etc.
 
 REQUIREMENTS:
--The app must keep count of inventories for daily vegetable harvests. 
--The User navigates through app with buttons only.
--From the Main Activity the user can press "Harvest" or "Inventory"
--There are 4 activities to go through to add an item to the inventory if the user presses "Harvest: PickLocation, PickPlant, EnterAmount.
--At the 5th activity, ToConinue, the user has the option to pick a new plant (staying at the same location), to change locations (and subsequently change the plant as well), and finally 
-to finish harvesting all together, bringing the user to the MainActivity.
--If the user selects view inventory, it will list the inventory from the session.
 
 User Stories/Test Cases:
 *...Test cases will be listed by button pushes, seperated by commas...*
@@ -75,3 +68,13 @@ app/src/main/java/com/example/gardeninventory/MyApplication.java
 app/src/main/java/com/example/gardeninventory/GardenState.java
 app/src/main/java/com/example/gardeninventory/PlantState.java
 app/src/main/java/com/example/gardeninventory/ViewInventoryActivity.java
+
+
+
+*****ARCHITECTURE*****
+-The Application relies on activities to navigate the user through the system.
+From the Main Activity the user can press "Harvest" or "Inventory"
+-There are 4 activities to go through to add an item to the inventory if the user presses "Harvest: PickLocation, PickPlant, EnterAmount.
+-At the 5th activity, ToConinue, the user has the option to pick a new plant (staying at the same location), to change locations (and subsequently change the plant as well), and finally 
+to finish harvesting all together, bringing the user to the MainActivity.
+-If the user selects view inventory, it will list the inventory from the session.
