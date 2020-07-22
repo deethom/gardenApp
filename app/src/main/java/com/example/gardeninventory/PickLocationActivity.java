@@ -5,7 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+/**
+ * @author  David Thomas
+ * @version 1.2
+ * @since   2020-07-22
+ */
 public class PickLocationActivity extends AppCompatActivity {
     private static GardenState currentGarden = GardenState.NULL;
 
@@ -15,6 +19,7 @@ public class PickLocationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pick_location);
     }
 
+//each button on this page has a method call below. Depending on which button is pressed, it will set the GardenState enum type, and move to the next page.
 
     public void pickPlantsAtGouin(View view){
         ((MyApplication) this.getApplication()).setCurrentGarden(GardenState.GOUIN);
@@ -45,12 +50,5 @@ public class PickLocationActivity extends AppCompatActivity {
 
     }
 
-    public void setGarden(GardenState garden){
-        currentGarden = garden;
-    }
-
-    public static GardenState getGarden(){
-        return currentGarden;
-    }
 
 }

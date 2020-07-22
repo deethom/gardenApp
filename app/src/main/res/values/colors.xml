@@ -3,4 +3,13 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="WIMGreen">#11BF25</color>
+    <color name="orane">#FF7100</color>
+    <color name="cpGreen">#8BC34A</color>
+    <color name="gouin_green">#4CAF50</color>
+    <color name="cumminsWarm">#F44336</color>
+    <color name="medtronicBlue">#3F51B5</color>
+    <color name="darkGreen">#8BC34A</color>
+    <color name="textGreen">#2D5300</color>
+    <color name="cummins_v2">#67C7F3</color>
 </resources>
